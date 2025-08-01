@@ -20,6 +20,7 @@
           # List packages installed in system profile. To search by name, run:
           # $ nix-env -qaP | grep wget
           environment.systemPackages = [
+            pkgs.aerospace
             pkgs.awscli2
             pkgs.bash-language-server
             pkgs.bat
@@ -70,6 +71,7 @@
           nixpkgs.hostPlatform = "aarch64-darwin";
 
           security.pam.services.sudo_local.touchIdAuth = true;
+          security.pam.services.sudo_local.reattach = true;
         };
     in
     {
