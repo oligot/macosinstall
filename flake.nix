@@ -30,6 +30,7 @@
             pkgs.eza
             pkgs.fd
             pkgs.fzf
+            pkgs.git
             pkgs.go
             pkgs.kubectl
             (pkgs.lima.override {
