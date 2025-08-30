@@ -32,6 +32,7 @@
             pkgs.fzf
             pkgs.git
             pkgs.go
+            pkgs.k9s
             pkgs.kubectl
             (pkgs.lima.override {
               withAdditionalGuestAgents = true;
@@ -47,6 +48,7 @@
             pkgs.stylua
             pkgs.tig
             pkgs.tmux
+            pkgs.tokei
             pkgs.tree-sitter
             pkgs.uv
             pkgs.vscode-langservers-extracted
