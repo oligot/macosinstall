@@ -30,9 +30,11 @@
             pkgs.eza
             pkgs.fd
             pkgs.fzf
+            pkgs.gh
             pkgs.git
             pkgs.go
             pkgs.k9s
+            pkgs.kanata
             pkgs.kubectl
             (pkgs.lima.override {
               withAdditionalGuestAgents = true;
