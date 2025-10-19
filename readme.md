@@ -19,7 +19,7 @@ sudo nix run nix-darwin -- switch --flake .
 
 ```bash
 nix flake update --commit-lock-file
-sudo darwin-rebuild switch --flake .
+make install
 ```
 
 ## Tools
