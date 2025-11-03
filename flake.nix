@@ -45,6 +45,7 @@
             pkgs.nodejs_22
             pkgs.nil
             pkgs.nixfmt-rfc-style
+            pkgs.overmind
             pkgs.pay-respects
             pkgs.ripgrep
             pkgs.stylua
