@@ -45,11 +45,15 @@
             pkgs.nodejs_22
             pkgs.nil
             pkgs.nixfmt-rfc-style
+            pkgs.ov
             pkgs.overmind
             pkgs.pay-respects
+            pkgs.postgresql
+            pkgs.prettier
             pkgs.ripgrep
             pkgs.stylua
             pkgs.tig
+            pkgs.tldr
             pkgs.tmux
             pkgs.tokei
             pkgs.tree-sitter
@@ -78,6 +82,9 @@
 
           security.pam.services.sudo_local.touchIdAuth = true;
           security.pam.services.sudo_local.reattach = true;
+
+          # Turn off nix-darwin’s management of the Nix installation
+          nix.enable = false;
         };
     in
     {
