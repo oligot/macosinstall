@@ -42,7 +42,6 @@
             pkgs.lua-language-server
             pkgs.marksman
             pkgs.neovim
-            pkgs.nodejs_22
             pkgs.nil
             pkgs.nixfmt-rfc-style
             pkgs.ov
