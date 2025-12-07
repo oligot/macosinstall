@@ -36,6 +36,7 @@
             pkgs.k9s
             pkgs.kanata
             pkgs.kubectl
+            pkgs.librewolf
             (pkgs.lima.override {
               withAdditionalGuestAgents = true;
             })
