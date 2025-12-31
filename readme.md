@@ -24,12 +24,6 @@ make install
 
 ## Tools
 
-### Tmux Plugin Manager
-
-```bash
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
 ### Zplug
 
 ```bash
