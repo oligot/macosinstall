@@ -117,8 +117,8 @@
     in
     {
       # Build darwin flake using:
-      # $ darwin-rebuild build --flake .#Oliviers-MacBook-Air
-      darwinConfigurations."Oliviers-MacBook-Air" = nix-darwin.lib.darwinSystem {
+      # $ darwin-rebuild build --flake .#macos
+      darwinConfigurations."macos" = nix-darwin.lib.darwinSystem {
         modules = [ configuration ];
       };
     };
