@@ -6,6 +6,12 @@
 
 [Download and install Ghostty](https://ghostty.org/download)
 
+## Homebrew
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ## Nix
 
 ### Install
@@ -19,7 +25,9 @@ sudo nix run nix-darwin -- switch --flake .
 
 ```bash
 nix flake update --commit-lock-file
-make install
+make work
+# or
+make personal
 ```
 
 ## Tools
